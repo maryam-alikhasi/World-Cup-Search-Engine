@@ -18,27 +18,22 @@ The input dataset is:
 matches_1930_2022.csv
 ```
 
-It contains **964 World Cup match records**, where each row represents one match.
+It contains **World Cup match records**, where each row represents one match.
 
 The dataset includes structured and semi-structured information such as:
 
 * Home and away teams
 * Match score
-* Expected goals (xG)
-* Goals and assists
+* Goals and assist
 * Penalties
 * Own goals
 * Yellow and red cards
 * Substitutions
 * Penalty shootouts
-* Coaches and captains
 * Referees
 * Stadium and city
 * Match date
-* Tournament round
 * Attendance
-* Host country
-* Year
 
 Many event-related fields contain semi-structured information that needs to be parsed before being used by the search system.
 

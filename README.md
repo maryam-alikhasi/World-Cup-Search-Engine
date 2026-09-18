@@ -414,7 +414,7 @@ Examples include:
 
 ## 8. Evaluation Metrics
 
-The following information retrieval metrics are implemented:
+The retrieval system is evaluated using 10 predefined evaluation queries with programmatically constructed relevance judgments, which serve as a silver standard. The following information retrieval metrics are implemented:
 
 ### Precision@K
 
@@ -487,12 +487,6 @@ python main.py
 ```
 
 This starts an interactive search interface.
-
-Example:
-
-```text
-Search > messi
-```
 
 ### Direct Query
 
